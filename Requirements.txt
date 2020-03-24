@@ -1,0 +1,53 @@
+##############################################################################
+###               INSTALL SOME LIBRARY&FRAMEWORK NECESSARY                  ##
+##############################################################################
+# 
+# 
+# --------INSTALL PACKAGES--------
+# pip install "Lib"         [--user]    Install the latest version.
+# pip install "Lib==1.8"    [--user]    Install a specific version.
+# pip install "Lib>=1,<8"   [--user]    Install greater than or equal to one version and less than another.
+# pip install "Lib~=1.8.2"  [--user]    Install any version "==1.8.x" version that’s also ">=1.8.2".
+# 
+# #INSTALLING OTHER INDEXES
+# pip install --extra-index-url http://my.package.repo/simple Lib
+# 
+# #INSTALLING A LOCAL SRC TREE
+# pip install -e <path>
+# 
+# #INSTALLING FROM LOCAL ARCHIVES
+# pip install ./downloads/Lib-1.0.8.tar.gz
+# 
+# #INSTALLING FROM OTHER SOURCES
+# pip install --extra-index-url http://localhost:7777 Lib
+# 
+# #INSTALLING PRERELEASES
+# pip install --pre Lib
+# 
+# #INSTALLING REQUIREMENTS.TXT FILES.
+# pip install -r/--requirement requirements.txt
+# 
+# 
+# --------UPGRADE PACKAGES--------
+# pip install --upgrade/-U Lib      Update Lib.
+# 
+# 
+# --------UNINSTALL PACKAGES--------
+# pip uninstall [options] <package> ...
+# pip uninstall [options] -r <requirements file> ...
+# -r, --requirement : Uninstall all the packages listed in the requirements file.
+# -y, --yes         : Don’t ask for confirmation of uninstall deletions.
+
+# Replace all “ ” in a its file.
+################################################
+
+tensorflow-gpu
+keras
+beautifulsoup4
+nose
+numpy
+sympy
+scrapy
+scapy
+scikit-learn
+requests
