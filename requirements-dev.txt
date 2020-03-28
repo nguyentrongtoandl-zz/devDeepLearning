@@ -37,17 +37,46 @@
 # pip uninstall [options] -r <requirements file> ...
 # -r, --requirement : Uninstall all the packages listed in the requirements file.
 # -y, --yes         : Don’t ask for confirmation of uninstall deletions.
-
-# Replace all “ ” in a its file.
+#
+# Replace all special symbol in a its file.
 ################################################
 
+#FRAMEWORK & Library
 tensorflow-gpu
 keras
+scikit-learn
+statsmodels
+nltk
+gensim
+scipy
+
+#Image Processing
+pillow
+
+#Crawler Web
 beautifulsoup4
-nose
+requests
+scrapy
+requests
+
+#Save Parameter
+h5py
+
+#Processing NArray
 numpy
 sympy
-scrapy
 scapy
-scikit-learn
-requests
+pandas
+
+#Testing
+nose
+
+#Visualization
+matplotlib
+seaborn
+bokeh
+
+#Console
+ipython
+
+
